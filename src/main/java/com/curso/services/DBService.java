@@ -8,7 +8,7 @@ import com.curso.domains.User;
 import com.curso.domains.enums.OrderPriority;
 import com.curso.domains.enums.OrderStatus;
 import com.curso.domains.enums.Status;
-import com.curso.domains.enums.Technician;
+import com.curso.domains.Technician;
 import com.curso.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,7 +29,7 @@ public class DBService {
     private TechnicianRepository techRepo;
 
     @Autowired
-    private UsersRepository userRepo;
+    private UserRepository userRepo;
 
     @Autowired
     private ServiceOrderRepository osRepo;

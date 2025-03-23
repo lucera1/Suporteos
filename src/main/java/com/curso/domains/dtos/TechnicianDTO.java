@@ -1,7 +1,7 @@
 package com.curso.domains.dtos;
 
 import com.curso.domains.enums.PersonType;
-import com.curso.domains.enums.Technician;
+import com.curso.domains.Technician;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

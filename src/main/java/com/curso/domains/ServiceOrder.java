@@ -2,7 +2,6 @@ package com.curso.domains;
 
 import com.curso.domains.enums.OrderPriority;
 import com.curso.domains.enums.OrderStatus;
-import com.curso.domains.enums.Technician;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 
