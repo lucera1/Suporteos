@@ -3,6 +3,7 @@ package com.curso.domains;
 import com.curso.domains.dtos.TechnicianDTO;
 import com.curso.domains.enums.PersonType;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
@@ -12,6 +13,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Entity
+@DiscriminatorValue("Technician")
 public class Technician extends Person {
 
     @JsonIgnore

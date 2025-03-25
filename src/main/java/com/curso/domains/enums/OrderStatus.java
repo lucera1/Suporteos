@@ -21,7 +21,7 @@ public enum OrderStatus {
             this.id = id;
         }
 
-        public String getOrderPriority() {
+        public String getOrderStatus() {
             return orderStatus;
         }
 
